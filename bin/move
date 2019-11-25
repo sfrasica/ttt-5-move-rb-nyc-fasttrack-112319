@@ -9,3 +9,4 @@ display_board(board)
 user_input = gets.strip
 index = input_to_index(user_input)
 move(board, 5, "X")
+display_board(board)
