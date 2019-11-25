@@ -14,3 +14,4 @@ end
 def move(board, index, current_user = "X")
     board[index] = current_user
 end
+move(board, 5, "X")
